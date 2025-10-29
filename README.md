@@ -20,13 +20,20 @@ Este proyecto refleja el aprendizaje adquirido en cursos o prácticas de anális
 
 ## Estructura del Proyecto
 
-- **`1_limpieza_dataset.ipynb`**: Limpieza inicial del dataset completo. Incluye eliminación de columnas irrelevantes, imputación de valores nulos, manejo de duplicados y separación en subconjuntos por marcas.
-- **`2_exploracion_marcas_caracteristicas.ipynb`**: Análisis exploratorio enfocado en autos con características de alto valor (transmisión automática, motor híbrido/gasolina, bajo kilometraje). Simula la búsqueda de un coche "barato pero premium".
-- **`3_seleccion_marcas_economicas.ipynb`**: Exploración de opciones económicas para uso diario en ciudad (bajo consumo de combustible, precio accesible, transmisión automática).
-- **`4_exploracion_marcas_costosas.ipynb`**: Análisis de vehículos de lujo (marcas como BMW, Mercedes-Benz, Land Rover) con filtros por estado, kilometraje y año de producción.
-- **`utils.py`**: Módulo auxiliar con funciones reutilizables para configuración de gráficas y rastreo de reducciones de datos.
-- **`cars.csv`**: Dataset original (incluido en el repo; también disponible en Kaggle).
-- **`carros_parte1.csv`, `carros_parte2.csv`, `carros_parte3.csv`**: Subconjuntos generados durante la limpieza.
+- **`.gitignore`**: Archivo para especificar archivos y carpetas que Git debe ignorar (ej. datos temporales, entornos virtuales, archivos de IDE).
+- **`environment.yml`**: Archivo de configuración para crear un entorno Conda con todas las dependencias necesarias (Python, bibliotecas como Pandas, Seaborn, etc.).
+- **`README.md`**: Este archivo, con descripción del proyecto, instrucciones de instalación y uso.
+- **`Data/`**: Carpeta que contiene los datasets utilizados.
+  - `cars.csv`: Dataset original (descárgalo de Kaggle y colócalo aquí).
+  - `carros_parte1.csv`, `carros_parte2.csv`, `carros_parte3.csv`: Subconjuntos generados durante la limpieza.
+- **`Notebooks/`**: Carpeta con los notebooks de análisis.
+  - `1_limpieza_dataset.ipynb`: Limpieza inicial del dataset completo. Incluye eliminación de columnas irrelevantes, imputación de valores nulos, manejo de duplicados y separación en subconjuntos por marcas.
+  - `2_exploracion_marcas_caracteristicas.ipynb`: Análisis exploratorio enfocado en autos con características de alto valor (transmisión automática, motor híbrido/gasolina, bajo kilometraje). Simula la búsqueda de un coche "barato pero premium".
+  - `3_seleccion_marcas_economicas.ipynb`: Exploración de opciones económicas para uso diario en ciudad (bajo consumo de combustible, precio accesible, transmisión automática).
+  - `4_exploracion_marcas_costosas.ipynb`: Análisis de vehículos de lujo (marcas como BMW, Mercedes-Benz, Land Rover) con filtros por estado, kilometraje y año de producción.
+- **`src/`**: Carpeta con módulos auxiliares.
+  - `utils.py`: Módulo auxiliar con funciones reutilizables para configuración de gráficas y rastreo de reducciones de datos.
+
 
 ## Requisitos e Instalación
 
